@@ -1,0 +1,74 @@
+name: main_application
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  # Base:
+  flutter:
+    sdk: flutter
+
+  # Localization:
+  flutter_localizations:
+    sdk: flutter
+  intl: 0.18.1
+
+  # Routing:
+  auto_route: 7.8.4
+
+  # Network:
+  dio: 5.3.3
+  awesome_dio_interceptor: 1.0.0
+  retrofit: 4.0.3
+
+  # UI:
+  cupertino_icons: 1.0.6
+  flutter_screenutil: 5.9.0
+
+  # Dependency injection:
+  get_it: 7.6.4
+  injectable: 2.3.2
+
+  # State management:
+  flutter_riverpod: 2.4.8
+
+  # Others:
+  freezed_annotation: 2.4.1
+  json_annotation: 4.8.1
+  flutter_dotenv: 5.1.0
+
+  # Internal:
+  main_library:
+    path: ../main_library
+
+dev_dependencies:
+  # Testing:
+  flutter_test:
+    sdk: flutter
+  mockito: 5.4.3
+
+  # Lints and code metrics:
+  flutter_lints: 3.0.1
+  dart_code_metrics: 5.7.6
+
+  # Code-generator:
+  build_runner: 2.4.6
+  injectable_generator: 2.4.1
+  auto_route_generator: 7.3.2
+  retrofit_generator: 8.0.1
+
+  # Others:
+  freezed: 2.4.5
+  json_serializable: 6.7.1
+
+flutter:
+  uses-material-design: true
+
+  generate: true
+
+  assets:
+    - res/config/

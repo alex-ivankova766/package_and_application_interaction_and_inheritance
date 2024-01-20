@@ -1,0 +1,11 @@
+{
+    "@@locale": "ru",
+
+    "serverError": "Ошибка сервера. Попробуйте позже.",
+    "unknownError": "Неизвестная ошибка. Обратитесь в службу поддержки или попробуйте позже.",
+
+    "initialToHomeButtonLabel": "To home",
+    "initialToProfileButtonLabel": "To profile",
+
+    "homeTitle": "Characters"
+}
